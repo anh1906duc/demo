@@ -17,14 +17,14 @@ namespace Btchuong3
             {
                 TuSo = tuSo;
                 MauSo = mauSo;
-            }
+            
 
             public static PhanSo Hieu(PhanSo a, PhanSo b)
             {
                 int tuSo = a.TuSo * b.MauSo - a.MauSo * b.TuSo;
                 int mauSo = a.MauSo * b.MauSo;
                 return new PhanSo(tuSo, mauSo);
-            }
+            
 
             public void ToiGian()
             {
