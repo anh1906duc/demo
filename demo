@@ -17,7 +17,7 @@ namespace Btchuong3
             {
                 TuSo = tuSo;
                 MauSo = mauSo;
-            
+            }
 
             public static PhanSo Hieu(PhanSo a, PhanSo b)
             {
